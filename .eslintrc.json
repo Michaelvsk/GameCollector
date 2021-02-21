@@ -30,6 +30,14 @@
 		},
 		{
 			"files": [
+				"*.page.ts"
+			],
+			"rules": {
+				"@angular-eslint/component-class-suffix": "off"
+			}
+		},
+		{
+			"files": [
 				"*.html"
 			],
 			"parser": "@angular-eslint/template-parser",
